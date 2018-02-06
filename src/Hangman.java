@@ -79,12 +79,12 @@ public static String in=" ";
                 char cr[]=str.toCharArray();
         if(cr.length==guessword.length){
                 if(str.equals(word)){
-                    System.out.println("Congratulations ! You won !");
+                    System.out.println("Congratulations ! You won ! Bla Bla Bla");
 
                     }
                 else{
                     death++;
-                    System.out.println("Wrong");
+                    System.out.println("Wrong!");
                     System.out.println(board);
                     draw();
 
@@ -110,11 +110,11 @@ public static String in=" ";
             String debil3=word.substring(1,word.length());
             if(!debil3.contains(debil)){
                 death++;
-                System.out.println("Wrong");
+                System.out.println("Wrong!");
                 draw();
                 }
             if(debil2.equals(word)){
-                System.out.println("Congratulations ! You won !");
+                System.out.println("Congratulations ! You won ! Bla Bla Bla");
 
             }
         }
